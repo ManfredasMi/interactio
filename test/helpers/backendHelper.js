@@ -1,4 +1,5 @@
 const root = `https://panel.interactio.dev`;
+const { default: axios } = require("axios");
 const timeouts = require("../staticValues/constants.json");
 
 const request = axios.create({
